@@ -25,8 +25,8 @@ public class LuckyNumberMapper extends AbstractOIDCProtocolMapper
 
 	private static final List<ProviderConfigProperty> configProperties = new ArrayList<>();
 
-	private static final String LOWER_BOUND = "lowerBound";
-	private static final String UPPER_BOUND = "upperBound";
+	static final String LOWER_BOUND = "lowerBound";
+	static final String UPPER_BOUND = "upperBound";
 
 	static {
 		configProperties.add(new ProviderConfigProperty(LOWER_BOUND, "Lower Bound", "Lower bound of lucky number.", ProviderConfigProperty.STRING_TYPE, 1));
